@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Questrial|Ropa+Sans');
+
+* { padding: 0; margin: 0; }
+
+.heading{
+	width: 100%;
+	height: 450px;
+	padding: 50px;
+	background-image: url("https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d8f98f85b993d535cbbeae311e");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 80px;
+	box-sizing: border-box;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+}
+.h-title{
+	color: #fff;
+	font-family: 'Bree Serif', serif;
+	font-size: 6em;
+	position: relative;
+	top: 40%;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.articles{
+	color: rgb(0,41,83);
+	font-size: 4em;
+	font-family: 'Bree Serif', serif;
+	margin: 30px 0 40px 30px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.rect{
+	display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+	width: 49%;
+	height: 350px;
+	padding: 45px;
+}
+.rect:hover{
+	outline: 6px solid rgb(0, 0, 0);
+    transition: all .3s;
+    outline-offset: -6px;
+}
+.gray{
+	background-color: #eee;
+	color: #222;
+}
+.black{
+	color: #eee;
+	background-color: #333;
+}
+
+.rect-title{
+	font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin: 0 0 20px 0;
+}
+
+.rect-body{
+	font-size: 1em;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: justify;
+}
+body {
+    padding-bottom: 250px;
+}
